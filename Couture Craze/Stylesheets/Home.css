@@ -1,0 +1,52 @@
+
+.additional-sections {
+  margin-top: 20px;
+}
+/* This is use to highlight and stlye (about us) */
+.section-title {
+  color: #b5250e;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #b5250e;
+  padding-bottom: 5px;
+}
+/* This is used to style the featured product option in home page*/
+.featured-products-carousel {
+  background-color: #D2B48C;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* These carousels are used to make featured product option attractive and adding them sliding feature*/
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.carousel img {
+  width: 500px;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel:hover img {
+  transform: translateX(-100%);
+}
+/* This is giving border to our logo*/
+.about-us-section img {
+  border: 5px solid #b5250e;
+  border-radius: 8px;
+}
+h2 {
+  background-color: #D2B48C;
+  border-top: 2px solid #b5250e;
+  border-bottom: 2px solid #b5250e;
+  padding: 10px 0;
+  color: #b5250e;
+}
+

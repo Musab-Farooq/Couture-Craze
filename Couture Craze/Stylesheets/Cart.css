@@ -1,0 +1,19 @@
+/* This is styling the cart page, filling them with color giving them border and transitioning them*/
+p {
+    color: #555;
+  }
+
+  button {
+    background-color: #b5250e;
+    color: white;
+    padding: 10px 20px;
+    border: double;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #D2B48C;
+  }

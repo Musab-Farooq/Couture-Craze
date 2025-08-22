@@ -1,0 +1,50 @@
+
+	.sidebar .subcategories {
+  padding-left: 30px;
+	padding-top: 10px; /* This is increasing the padding to move subcategories to the left */
+}
+
+.sidebar .subcategories a {
+  font-size: 13px; /* This is decrease the font size for subcategories */
+  margin-left: -10px; /* This is used to adjust margin to move subcategories to the left */
+}
+
+    /* Styling for Categories */
+    h1 {
+      color: #b5250e;
+    }
+
+    .category {
+      border: 2px solid #b5250e;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      text-align: left;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 8px 5px 10px rgba(181, 37, 14, 0.5); /* Add box shadow */
+    }
+
+    .category img {
+      max-width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    button {
+      background-color: #b5250e;
+      color: white;
+      padding: 10px 20px;
+      border: double;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #D2B48C;
+    }
